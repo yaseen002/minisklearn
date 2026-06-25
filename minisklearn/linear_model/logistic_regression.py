@@ -1,4 +1,3 @@
-# minisklearn/linear_model/logistic_regression.py
 import numpy as np
 from minisklearn.base import BaseEstimator
 from minisklearn.utils.math_ops import sigmoid, binary_cross_entropy

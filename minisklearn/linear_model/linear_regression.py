@@ -1,4 +1,3 @@
-# minisklearn/linear_model/linear_regression.py
 import numpy as np
 from minisklearn.base import BaseEstimator
 

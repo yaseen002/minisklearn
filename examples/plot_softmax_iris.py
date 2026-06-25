@@ -1,4 +1,3 @@
-# examples/plot_softmax_iris.py
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
