@@ -8,11 +8,17 @@ minisklearn.egg-info/dependency_links.txt
 minisklearn.egg-info/requires.txt
 minisklearn.egg-info/top_level.txt
 minisklearn/cluster/__init__.py
+minisklearn/cluster/kmeans.py
 minisklearn/linear_model/__init__.py
 minisklearn/linear_model/linear_regression.py
 minisklearn/linear_model/logistic_regression.py
 minisklearn/linear_model/softmax_regression.py
+minisklearn/metrics/__init__.py
+minisklearn/metrics/unsupervised.py
 minisklearn/neural_network/__init__.py
+minisklearn/neural_network/gradient_check.py
+minisklearn/neural_network/layers.py
+minisklearn/neural_network/mlp.py
 minisklearn/utils/__init__.py
 minisklearn/utils/data.py
 minisklearn/utils/math_ops.py
