@@ -67,4 +67,4 @@ class LinearRegression(BaseEstimator):
 
     def predict(self, X: np.ndarray) -> np.ndarray:
         X_b = self._add_bias(X)
-        return X_b @ self.weights
+        return (X_b @ self.weights).ravel() # <--- Added .ravel()

@@ -59,6 +59,5 @@ class LogisticRegression(BaseEstimator):
         return sigmoid(X_b @ self.weights)
 
     def predict(self, X: np.ndarray) -> np.ndarray:
-        """Returns the predicted class (0 or 1) using a 0.5 threshold."""
         probabilities = self.predict_proba(X)
-        return (probabilities >= 0.5).astype(int)
+        return (probabilities >= 0.5).astype(int).ravel() # <--- Added .ravel()
